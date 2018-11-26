@@ -3,5 +3,9 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+  # postone = Post.create([{ title: 'Oil Change' }, { description: 'Its real easy to do' }])
+
+  postwo = Post.create([{ title: 'Polish Shoes' }, { description: 'Five minutes and some spit.' }])
+
+  postthree = Post.create([{ title: 'Gum' }, { description: 'Chew it up' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
